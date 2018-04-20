@@ -1,0 +1,7 @@
+- hosts: ubuntu
+  tasks: 
+    - name: Create a sample file
+      file:
+        path: /tmp/awx.txt
+        state: touch
+
